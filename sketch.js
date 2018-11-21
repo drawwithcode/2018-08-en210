@@ -15,11 +15,7 @@ function draw() {
     for(h=0;h<height/10;h++){
       fill(rotationX/i*3,rotationY/h*3,0)
       rect(i*width/10,h*height/10,width/10,height/10)
-      push()
-       fill('white')
-       textSize(width/20)
-       text('PUT ON A PLAIN TO TURN OFF',100,100,1000)
-      pop()
+      
 
     }
   }
